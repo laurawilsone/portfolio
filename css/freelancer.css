@@ -2,6 +2,10 @@ body {
   font-family: 'Lato';
 }
 
+container {
+  background-image: url("..img/tea.jpeg");
+}
+
 h1,
 h2,
 h3,
@@ -43,6 +47,7 @@ hr.star-light {
 hr.star-light:after {
   color: #fff;
   background-color: #18BC9C;
+/*background-image: ("../img/tea.jpeg");*/
 }
 
 hr.star-dark {
