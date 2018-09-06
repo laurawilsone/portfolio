@@ -2,9 +2,7 @@ body {
   font-family: 'Lato';
 }
 
-container {
-  background-image: url("..img/tea.jpeg");
-}
+
 
 h1,
 h2,
@@ -12,7 +10,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  font-weight: 500;
   font-family: 'Montserrat';
 }
 
@@ -46,8 +44,8 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C;
-/*background-image: ("../img/tea.jpeg");*/
+  background-color: #e1cde9;
+/* background-color: #18BC9C;*/
 }
 
 hr.star-dark {
@@ -109,7 +107,8 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #fff;
+/*  color: #fff;*/
+color: #e1cde9 !important;
 }
 
 #mainNav .navbar-nav {
@@ -118,24 +117,41 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  /*color: #fff;*/
+  color: #e1cde9 !important;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18BC9C;
+ color: #e1cde9;
+ 
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
+ color: #e1cde9;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18BC9C;
+ color: #18BC9C;
+
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.8rem;
+}
+
+
+
+.main-section {
+  background: #e1cde9;
+  padding: 30px;
+  margin: 0 0 40px 20.5%;
+  width: 100%;
+  max-width: 650px;
+  float: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  opacity: .99;
 }
 
 @media (min-width: 992px) {
@@ -156,12 +172,15 @@ section h2 {
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
-    background: #18BC9C;
+    color: white;
+ /*   background: #18BC9C;*/
+    background-color: #e1cde9;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
-    background: #18BC9C;
+    color: white;
+  /*  background: #18BC9C;*/
+  background-color: #e1cde9;
+  }
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -170,7 +189,7 @@ section h2 {
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
-}
+
 
 header.masthead {
   padding-top: calc(6rem + 72px);
@@ -217,7 +236,8 @@ header.masthead h2 {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
+/*  background-color: rgba(24, 188, 156, 0.9);*/
+
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -320,7 +340,8 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+ color: #18BC9C;
+
 }
 
 form .row:first-child .floating-label-form-group {
@@ -330,12 +351,15 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2C3E50;
-  color: #fff;
+ /* background-color: #2C3E50;*/
+ background-color: #e1cde9 !important;
+  color: white;
+  border-top: 1px solid black;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: white;
+  color: black !important;
 }
 
 a {
@@ -351,11 +375,21 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+/*background-color: #e1cde9 !important;*/
+/*background-color: #18BC9C !important;*/
+background-image: url("../img/tea.jpeg") !important;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+#about {
+  background-color: #e1cde9;
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+/*  background-color: #2C3E50 !important;*/
+background-color: white !important;
 }
 
 .text-primary {
@@ -367,13 +401,15 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+ /* background-color: #18BC9C;
+  border-color: #18BC9C;*/
+background-color: #e1cde9;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #128f76;
-  border-color: #128f76;
+/*  background-color: #128f76;
+  border-color: #128f76;*/
+background-color: #e1cde9;
 }
 
 .btn-secondary {
@@ -384,4 +420,18 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
+}
+
+.resume {
+  margin: 6% 0 0 0;
+}
+
+#resumeButton {
+  background-color: white;
+  color: black;
+  border-width: 2px solid black;
+  margin: 6% 0 0 30%;
+  font-size: 18px;
+  padding: 10px 30px;
+  border-radius: 4px;
 }
