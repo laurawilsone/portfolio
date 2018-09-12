@@ -135,9 +135,9 @@
     </section>
 
     <!-- About Section -->
-    <section class="text-white mb-0" id="about">
+    <section class="text mb-0" id="about">
       <div class="container">
-        <h2 class="text-center text-uppercase text-white">About</h2>
+        <h2 class="text-center text-uppercase">About</h2>
         <hr class="star-light mb-5">
         <div class="row">
           <div class="col-lg-4 ml-auto">
@@ -167,7 +167,7 @@
           <div class="col-lg-8 mx-auto">
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
             <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-            <form method="POST" action="https://formspree.io/laura.wils204@gmail.com" name="sentMessage" id="contactForm" novalidate="novalidate">
+            <form name="sentMessage" id="contactForm" novalidate="novalidate">
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                   <label>Name</label>
@@ -185,7 +185,7 @@
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                   <label>Phone Number</label>
-                  <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
+                  <input class="form-control" id="phone" type="tel"placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
@@ -220,28 +220,18 @@
             <h4 class="text-uppercase mb-4">Connect</h4>
             <ul class="list-inline mb-0">
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-facebook"></i>
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/laurawilsone">
+                  <i class="fa fa-fw fa-github"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-google-plus"></i>
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://stackexchange.com/users/12851908/laura-wilson">
+                  <i class="fa fa-fw fa-stack-overflow"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/laura-wilson-03b266148/">
                   <i class="fa fa-fw fa-linkedin"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-dribbble"></i>
                 </a>
               </li>
             </ul>
@@ -278,10 +268,14 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Mongodb Scraper</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Eat-Da-Burger</h2>
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/burger.jpg" alt="">
-              <p class="mb-5">This is a Node.js application that utilizes Cheerio and a MongoDB back-end to scrape and save NYT articles to a Bootstrap UI.</p>
+              <p class="mb-5">Eat-Da-Burger is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page.</p>
+              <div class="modal-footer">
+                <button id="gitCode" class="btn btn-primary"><a href="https://github.com/laurawilsone/eat-da-burger">Code</href></a></button>
+                <button id="gitCode" class="btn btn-primary"><a href="https://pacific-earth-49123.herokuapp.com/">Live Link</href></a></button>
+              </div>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close</a>
@@ -304,6 +298,10 @@
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/lexeme.jpeg" alt="">
               <p class="mb-5">Type a word in the search input to see the definition. Press the audio button to have definition read out loud. User can search for a Wikipedia summary page and have the page read out loud. User can have any input read out loud using the text to speech page.</p>
+              <div class="modal-footer">
+                <button id="gitCode" class="btn btn-primary"><a href="https://github.com/kyletobin/groupProject1">Code</href></a></button>
+                <button id="gitCode" class="btn btn-primary"><a href="https://kyletobin.github.io/groupProject1/">Live Link</href></a></button>
+              </div>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close</a>
@@ -326,6 +324,10 @@
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/crystal.jpeg" alt="">
               <p class="mb-5">You have 10 seconds to answer each trivia question. There are 8 questions in total. The game will keep track of the questions you have answered correctly and incorrectly.</p>
+              <div class="modal-footer">
+                <button id="gitCode" class="btn btn-primary"><a href="https://laurawilsone.github.io/triviagame/">Code</href></a></button>
+                <button id="gitCode" class="btn btn-primary"><a href="https://laurawilsone.github.io/triviagame/">Live Link</href></a></button>
+              </div>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close</a>
@@ -348,6 +350,10 @@
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/friend.jpeg" alt="">
               <p class="mb-5"> A full stack friend matching app that will match friends based on a survey. Once the user submits the survey, they are matched with a "friend" that has the closest match to their personality.</p>
+              <div class="modal-footer">
+                <button id="gitCode" class="btn btn-primary"><a href="https://github.com/laurawilsone/Friend-Finder">Code</href></a></button>
+                <button id="gitCode" class="btn btn-primary"><a href="https://salty-crag-45825.herokuapp.com/">Live Link</href></a></button>
+              </div>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close</a>
@@ -366,10 +372,14 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Clicky Game</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Dime</h2>
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/doughnut.jpeg" alt="">
-              <p class="mb-5">This is a memory game using React.</p>
+              <p class="mb-5">An easy to you internal app for a customer based store. Keeps track of sales orders, invoices, and sales data. The app includes a sales order form and admin panel for adjusting inventory and products. Charts for product/department sales and inventory. </p>
+              <div class="modal-footer">
+                <button id="gitCode" class="btn btn-primary"><a href="https://github.com/laurawilsone/project-two">Code</href></a></button>
+                <button id="gitCode" class="btn btn-primary"><a href="https://pacific-caverns-32804.herokuapp.com/">Live Link</href></a></button>
+              </div>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close</a>
@@ -392,6 +402,10 @@
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/train.jpg" alt="">
               <p class="mb-5">Firebase application that uses user input to create a train schedule.</p>
+              <div class="modal-footer">
+                <button id="gitCode" class="btn btn-primary"><a href="https://github.com/laurawilsone/train-time">Code</href></a></button>
+                <button id="gitCode" class="btn btn-primary"><a href="https://laurawilsone.github.io/train-time/">Live Link</href></a></button>
+              </div>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close</a>
@@ -412,8 +426,10 @@
                   <div class="col-lg-8 mx-auto">
                     <h2 class="text-secondary text-uppercase mb-0">Resume</h2>
                     <hr class="star-dark mb-5">
-                 <!--   <img class="img-fluid mb-5" src="img/burger.jpg" alt="">
-                    <p class="mb-5">This is a Node.js application that utilizes Cheerio and a MongoDB back-end to scrape and save NYT articles to a Bootstrap UI.</p>-->
+                    <div style="text-align: center;">
+                      <iframe src="img/laurawilsonresume.docx.pdf#zoom=85" 
+                      style="width: 750px; height: 800px;" frameborder="0" allowfullscreen></iframe>
+                    </div>
                     <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                       <i class="fa fa-close"></i>
                       Close</a>
