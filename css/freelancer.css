@@ -229,7 +229,6 @@ header.masthead h2 {
 }
 
 @media (min-width: 992px) {
-  .main-section {/* background: #e1cde9;*/background-color: #e8e1eb;padding: 30px;margin: 0 0 40px 3%;width: 100%;max-width: 800px;float: none;border: 1px solid black;border-radius: 10px;opacity: .99;}
   header.masthead {
     padding-top: calc(6rem + 106px);
     padding-bottom: 6rem;
@@ -272,7 +271,6 @@ header.masthead h2 {
 }
 
 @media (min-width: 576px) {
-  .main-section {/* background: #e1cde9;*/background-color: #e8e1eb;padding: 30px;margin: 0 0 40px 0;width: 100%;max-width: 650px;float: none;border: 1px solid black;border-radius: 10px;opacity: .99;}
   .portfolio {
     margin-bottom: -30px;
   }
